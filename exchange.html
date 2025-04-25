@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NouneExchange</title>
+    <link rel="stylesheet" href="exhange.css" />
+    <script src="exhange.js" type="module" defer></script>
+  </head>
+  <body>
+    <header>
+      <span class="noune">Noune</span><span class="exhange">Exchange</span>
+    </header>
+
+    <main>
+      <h1>Convertisseur de devises</h1>
+      <div class="convert_section">
+        <!-- inside this section i  do all the calcul-->
+
+        <input type="number" name="first_convert" id="" step="any" />
+        <select name="devise_posseder">
+          <option value="..." selected>Choisir votre devise</option>
+          <option value="HTG">Gourde haitienne</option>
+          <option value="USD">Dollar americain</option>
+          <option value="CAD">Dollar canadien</option>
+          <option value="BRL">Real bresilien</option>
+          <option value="EUR">Euro</option>
+          <option value="DOP">Peso dominicain</option>
+        </select>
+
+        <div><button class="icone">&#128260</button></div>
+
+        <input type="number" name="second_convert" id="" step="any" disabled />
+        <select name="devise_change">
+          <option value="HTG">Gourde haitienne</option>
+          <option value="USD">Dollar americain</option>
+          <option value="CAD">Dollar canadien</option>
+          <option value="BRL">Real bresilien</option>
+          <option value="EUR">Euro</option>
+          <option value="DOP">Peso dominicain</option>
+        </select>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
