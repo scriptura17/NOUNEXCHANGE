@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NouneExchange</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="exhange.css" />
     <script src="exhange.js" type="module" defer></script>
   </head>
   <body>
     <header>
-      <span class="noune">Noune</span><span class="exhange">Exchange</span>
+      <span class="noune">Noun</span><span class="exhange">Exchange</span>
     </header>
 
     <main>
@@ -28,7 +32,11 @@
           <option value="DOP">Peso dominicain</option>
         </select>
 
-        <div><button class="icone">&#128260</button></div>
+        <div>
+          <button class="icone">
+            <i class="fa-solid fa-exchange-alt"></i>
+          </button>
+        </div>
 
         <input type="number" name="second_convert" id="" step="any" disabled />
         <select name="devise_change">
