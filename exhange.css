@@ -54,21 +54,9 @@ main {
 h1 {
   position: absolute;
   top: 50px;
-}
-
-footer {
-  width: 100%;
-  background-color: red;
-  height: 70px;
-  position: absolute;
-  bottom: 0;
-}
-
-button {
-  padding: 10px;
-  width: 100px;
-  height: 55px;
-  background-color: white;
+  color: navy;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 select,
@@ -81,3 +69,34 @@ input {
   height: 50px;
   background-color: white;
 }
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+button {
+  background-color: navy;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+i {
+  margin-right: 8px;
+}
+
